@@ -12,7 +12,136 @@
             display: flex;
             background-color: #FF8D27;
             padding: .8vw 2vh;
+            margin: 0px;<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopSolver &CenterDot; Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/static/title_icon.png" type="image/png">
+    <style>
+        .navbar {
+            display: flex;
+            background-color: #FF8D27;
+            padding: 8px 20px;
             margin: 0px;
+            padding-bottom: 6px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar span {
+            position: relative;
+            bottom: 8px;
+            left: 2px;
+            font-size: 25px;
+            color: white;
+            font-family: 'Grandstander', cursive;
+            display: inline;
+        }
+
+        .navbar ul {
+            display: flex;
+            height: 40px;
+            line-height: 40px;
+            margin: 0px;
+        }
+
+        .navbar ul li {
+            text-decoration: none;
+            color: white;
+            list-style: none;
+            display: inline;
+            padding: 0px 4px;
+            color: white;
+            margin-left: 6px;
+            margin-right: 6px;
+            font-family: 'Grandstander', cursive;
+            font-size: 18px;
+        }
+
+        .navbar ul li a {
+            color: white;
+        }
+
+        .ask {
+            height: 40px;
+            position: absolute;
+            right: 10px;
+            line-height: 40px;
+        }
+
+        #searchbox {
+            height: 24px;
+            width: 174px;
+            padding: 6px 12px;
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        #searchbox:focus {
+            outline: none;
+        }
+
+        #search {
+            margin-left: 5px;
+            height: 37px;
+            width: 80px;
+            border: 1px solid white;
+            border-radius: 5px;
+            color: white;
+            font-size: 15px;
+            background-color: #FF8D27;
+        }
+
+        #search:hover {
+            color: #FF8D27;
+            background-color: white;
+            transition: 0.7s;
+        }
+
+        #search:focus {
+            outline: none;
+        }
+
+        .active {
+            color: white !important;
+        }
+
+        .passive {
+            color: rgba(255, 255, 255, .5) !important;
+        }
+
+        .passive:hover {
+            color: rgba(255, 255, 255, 0.75) !important;
+        }
+    </style>
+</head>
+
+<body style="margin: 0px;">
+    <header>
+        <nav class="navbar">
+            <a href="#"><img src="/static/icon.png" id="icon" alt=""><span>TopSolver</span></a>
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="" class="passive">Solutions</a></li>
+                <li><a href="" class="passive">About Us</a></li>
+                <li><a href="" class="passive">FAQ(s)</a></li>
+            </ul>
+            <form action="#" class="ask">
+                <input type="text" name="question" id="searchbox" placeholder="Ask a question">
+                <button type="submit" id="search">Search</button>
+            </form>
+        </nav>
+    </header>
+</body>
+
+</html>
             padding-bottom: .6vh;
         }
 
