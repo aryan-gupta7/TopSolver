@@ -1,0 +1,134 @@
+.navbar {
+    display: flex;
+    background-color: #FF8D27;
+    padding: 8px 20px;
+    margin: 0px;
+    padding-bottom: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #FF8D27;
+}
+
+.navbar span {
+    position: relative;
+    bottom: 8px;
+    left: 2px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Grandstander', cursive;
+    display: inline;
+}
+
+.navbar ul {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: inline;
+    padding: 0px 4px;
+    color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-family: 'Grandstander', cursive;
+    font-size: 18px;
+}
+
+.navbar ul li a {
+    color: white;
+}
+
+.ask {
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    line-height: 40px;
+}
+
+#searchbox {
+    height: 24px;
+    width: 174px;
+    padding: 6px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#searchbox:focus {
+    outline: none;
+}
+
+#search {
+    margin-left: 5px;
+    height: 37px;
+    width: 80px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    background-color: #FF8D27;
+}
+
+#search:hover {
+    color: #FF8D27;
+    background-color: white;
+    transition: 0.7s;
+}
+
+#search:focus {
+    outline: none;
+}
+
+.passive {
+    color: rgba(255, 255, 255, .5) !important;
+}
+
+.passive:hover {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.heading{
+    text-align: center;
+    font-size: 20vh;
+    font-family: 'Grandstander', cursive;
+    color: blue;
+}
+.subheading{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Grandstander', cursive;
+    color: grey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.subject{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 70vw;
+    height: auto;
+    border: 0;
+    border-radius: 40px;
+    line-height: 25vh;
+    font-family: 'Grandstander';
+    font-size: 20vh;
+    color: #FF8D27;
+    background: linear-gradient(135deg,#FF8D27,blue);
+    transition: all 1s;
+}
+.subject:hover{
+    background: linear-gradient(135deg,blue,#FF8d27);
+    -webkit-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
